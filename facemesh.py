@@ -5,6 +5,8 @@ mp_drawing_styles = mp.solutions.drawing_styles
 mp_face_mesh = mp.solutions.face_mesh
 
 
+
+# try1 
 # 웹캠, 영상 파일의 경우 이것을 사용하세요.:
 drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 cap = cv2.VideoCapture(0)
