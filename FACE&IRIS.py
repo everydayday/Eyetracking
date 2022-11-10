@@ -25,3 +25,8 @@ while cap.isOpened():
             joint = np.zeros((500, 3))
             for j,lm in enumerate(faceLms.landmark):
                 joint[j] = [lm.x, lm.y, lm.z]
+
+                joint[474,0] >= joint[477,0]
+
+                
+ 
