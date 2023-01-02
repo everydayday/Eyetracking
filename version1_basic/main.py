@@ -1,17 +1,3 @@
-# 기본코드 - threshold 상황에 맞게 조절하기
-
-# blink 값 조절
-# 3번 깜빡일 시 start 및 end
-
-
-# 눈 오른쪽 아래
-# blink 한번 하면 끝남... 
-# start 및 emergency 했을 시 3초 세고 blink 하기
-# up,blink
-# 눈 지그시 감기
-# blink 해버리면 끝나니깐 up 하고 blink 해버리는게 나을지도
-
-
 import cv2 as cv
 import mediapipe as mp
 import time
